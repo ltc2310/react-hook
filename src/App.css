@@ -20,3 +20,33 @@
 .App-link {
   color: #09d3ac;
 }
+
+.pokemon {
+  min-height: 300px;
+  background: yellow;
+  padding: 15px;
+}
+
+.your-poke {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-flow: column;
+  overflow: scroll;
+}
+
+.poke-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 15px;
+}
+
+.poke-list .poke {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  min-height: 150px;
+  padding: 15px;
+  background: #F3F3F3;
+} 
